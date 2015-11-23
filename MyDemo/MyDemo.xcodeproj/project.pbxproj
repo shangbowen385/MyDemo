@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		7EDF4B4F1C03831F0001E08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF4B4E1C03831F0001E08C /* main.m */; };
 		7EDF4B521C03831F0001E08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF4B511C03831F0001E08C /* AppDelegate.m */; };
-		7EDF4B551C03831F0001E08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF4B541C03831F0001E08C /* ViewController.m */; };
-		7EDF4B581C03831F0001E08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF4B561C03831F0001E08C /* Main.storyboard */; };
 		7EDF4B5A1C03831F0001E08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF4B591C03831F0001E08C /* Assets.xcassets */; };
 		7EDF4B5D1C03831F0001E08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF4B5B1C03831F0001E08C /* LaunchScreen.storyboard */; };
 		7EDF4B681C03831F0001E08C /* MyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF4B671C03831F0001E08C /* MyDemoTests.m */; };
 		7EDF4B731C03831F0001E08C /* MyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF4B721C03831F0001E08C /* MyDemoUITests.m */; };
+		7EDF4B821C0383C60001E08C /* BWModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF4B811C0383C60001E08C /* BWModel.m */; settings = {ASSET_TAGS = (); }; };
+		7EDF4B861C0385B30001E08C /* BWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF4B841C0385B30001E08C /* BWRootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7EDF4B871C0385B30001E08C /* BWRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF4B851C0385B30001E08C /* BWRootViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +40,6 @@
 		7EDF4B4E1C03831F0001E08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7EDF4B501C03831F0001E08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7EDF4B511C03831F0001E08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7EDF4B531C03831F0001E08C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7EDF4B541C03831F0001E08C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7EDF4B571C03831F0001E08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EDF4B591C03831F0001E08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EDF4B5C1C03831F0001E08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EDF4B5E1C03831F0001E08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +49,12 @@
 		7EDF4B6E1C03831F0001E08C /* MyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDF4B721C03831F0001E08C /* MyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDemoUITests.m; sourceTree = "<group>"; };
 		7EDF4B741C03831F0001E08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDF4B801C0383C60001E08C /* BWModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWModel.h; sourceTree = "<group>"; };
+		7EDF4B811C0383C60001E08C /* BWModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWModel.m; sourceTree = "<group>"; };
+		7EDF4B831C0385B30001E08C /* BWRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWRootViewController.h; sourceTree = "<group>"; };
+		7EDF4B841C0385B30001E08C /* BWRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWRootViewController.m; sourceTree = "<group>"; };
+		7EDF4B851C0385B30001E08C /* BWRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWRootViewController.xib; sourceTree = "<group>"; };
+		7EDF4B881C03861A0001E08C /* MySet.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySet.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		7EDF4B411C03831F0001E08C = {
 			isa = PBXGroup;
 			children = (
+				7EDF4B801C0383C60001E08C /* BWModel.h */,
+				7EDF4B811C0383C60001E08C /* BWModel.m */,
 				7EDF4B4C1C03831F0001E08C /* MyDemo */,
 				7EDF4B661C03831F0001E08C /* MyDemoTests */,
 				7EDF4B711C03831F0001E08C /* MyDemoUITests */,
@@ -103,13 +109,14 @@
 			children = (
 				7EDF4B501C03831F0001E08C /* AppDelegate.h */,
 				7EDF4B511C03831F0001E08C /* AppDelegate.m */,
-				7EDF4B531C03831F0001E08C /* ViewController.h */,
-				7EDF4B541C03831F0001E08C /* ViewController.m */,
-				7EDF4B561C03831F0001E08C /* Main.storyboard */,
 				7EDF4B591C03831F0001E08C /* Assets.xcassets */,
 				7EDF4B5B1C03831F0001E08C /* LaunchScreen.storyboard */,
 				7EDF4B5E1C03831F0001E08C /* Info.plist */,
 				7EDF4B4D1C03831F0001E08C /* Supporting Files */,
+				7EDF4B831C0385B30001E08C /* BWRootViewController.h */,
+				7EDF4B841C0385B30001E08C /* BWRootViewController.m */,
+				7EDF4B851C0385B30001E08C /* BWRootViewController.xib */,
+				7EDF4B881C03861A0001E08C /* MySet.pch */,
 			);
 			path = MyDemo;
 			sourceTree = "<group>";
@@ -202,6 +209,7 @@
 		7EDF4B421C03831F0001E08C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BW;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "尚博文";
 				TargetAttributes = {
@@ -246,9 +254,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EDF4B871C0385B30001E08C /* BWRootViewController.xib in Resources */,
 				7EDF4B5D1C03831F0001E08C /* LaunchScreen.storyboard in Resources */,
 				7EDF4B5A1C03831F0001E08C /* Assets.xcassets in Resources */,
-				7EDF4B581C03831F0001E08C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EDF4B551C03831F0001E08C /* ViewController.m in Sources */,
 				7EDF4B521C03831F0001E08C /* AppDelegate.m in Sources */,
+				7EDF4B861C0385B30001E08C /* BWRootViewController.m in Sources */,
+				7EDF4B821C0383C60001E08C /* BWModel.m in Sources */,
 				7EDF4B4F1C03831F0001E08C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +320,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7EDF4B561C03831F0001E08C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7EDF4B571C03831F0001E08C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7EDF4B5B1C03831F0001E08C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,7 +417,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyDemo/MySet.pch";
 				INFOPLIST_FILE = MyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.MyDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,7 +430,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyDemo/MySet.pch";
 				INFOPLIST_FILE = MyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.MyDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";

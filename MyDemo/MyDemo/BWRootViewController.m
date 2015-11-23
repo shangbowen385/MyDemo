@@ -1,27 +1,31 @@
 //
-//  ViewController.m
+//  BWRootViewController.m
 //  MyDemo
 //
 //  Created by 尚博文 on 15/11/24.
 //  Copyright © 2015年 尚博文. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BWRootViewController.h"
 
-@interface ViewController ()
+@interface BWRootViewController ()
 
 @end
 
-@implementation ViewController
+@implementation BWRootViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor yellowColor];
+
 }
 
 - (void)didReceiveMemoryWarning {
+    
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
 @end

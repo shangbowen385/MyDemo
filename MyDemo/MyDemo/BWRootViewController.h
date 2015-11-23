@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BWRootViewController.h
 //  MyDemo
 //
 //  Created by 尚博文 on 15/11/24.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BWRootViewController : UIViewController
 
 @end
-
