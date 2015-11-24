@@ -24,4 +24,6 @@
 
 +(instancetype)modelWithDic:(NSDictionary *)dic;
 
++(instancetype)sharedModel;
+
 @end

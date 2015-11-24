@@ -11,5 +11,6 @@
 
 #define SWidth [UIScreen mainScreen].bounds.size.width
 #define SHeight [UIScreen mainScreen].bounds.size.height
+#import "BWModel.h"
 
 #endif /* MySet_pch */
